@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Machine Learning models
+*.pkl
+*.joblib
+*.model
+
+# Large datasets
+datasets/raw/
+datasets/processed/
+*.csv
+*.zip
+*.log
+
+# Node
+node_modules/
+
+# Build / generated files
+dist/
+build/
+dist-backend/
+build-backend-temp/
+release/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
